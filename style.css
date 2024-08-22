@@ -22,11 +22,13 @@ nav {
      width: 80px;
      height: 80px;
      padding-left: 40px;
+     margin-top: 30px;
 }
 
 .anchor {
     margin-top: 20px;
     padding-right: 60px;
+    margin-top: 5px;
 }
 
 .anchor a {
@@ -37,6 +39,53 @@ nav {
     color: rgb(76, 37, 20);
     background-color: #ffffff6b;
 }
+
+/*         home   */
+
+
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-head {
+    padding: 149px 69px;
+    font-size: large;
+}
+
+.home-head h1 {
+    font-size: 45px;
+}
+h1 em {
+    font-size: 61px;
+    font-style: normal;
+}
+
+.home-head p {
+   padding: 5px 0;
+}
+
+.home-head button {
+    color: rgb(74, 39, 20);
+    border: 1px solid rgb(74, 39, 20);
+    background-color: transparent;
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 16px;
+    border-radius: 7px;
+}
+
+.offer {
+    margin-top: -90px;
+    margin-left: -100px;
+}
+
+.offer img {
+    width: 400px;
+    
+}
+
+
 
 
 
@@ -64,6 +113,7 @@ nav {
     #logo img {
         height: 59px;
         width: 59px;
+        
     }
 
     .anchor a {
@@ -79,9 +129,11 @@ nav {
         height: 49px;
         width: 50px;
         padding-left: 10px;
+        margin-top: 15px;
     }
     .anchor {
         padding-right: 10px;
+        margin-top: 5px;
     }
 
     .anchor a {
