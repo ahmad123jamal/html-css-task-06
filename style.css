@@ -5,7 +5,7 @@
 
 
 body{
-    background-image: linear-gradient(rgba(255,255,255,0.395) rgba(255,255,255,0.395) url(./images/img-1.jpg));
+    background-image: linear-gradient(rgba(255,255,255,0.395), rgba(255,255,255,0.395)), url(./images/img-1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -16,19 +16,21 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 5px;
 }
 
 #logo img {
-     width: 80px;
-     height: 80px;
+     width: 100px;
+     height: 100px;
      padding-left: 40px;
      margin-top: 30px;
+     border-radius: 10px;
 }
 
 .anchor {
     margin-top: 20px;
     padding-right: 60px;
-    margin-top: 5px;
+    margin-top: 5%;
 }
 
 .anchor a {
@@ -57,12 +59,13 @@ nav {
     font-size: 45px;
 }
 h1 em {
-    font-size: 61px;
+    font-size: 71px;
     font-style: normal;
 }
 
 .home-head p {
    padding: 5px 0;
+   
 }
 
 .home-head button {
@@ -76,13 +79,17 @@ h1 em {
 }
 
  .offer {
-    margin-top: -60px;
-    margin-left: -0px;
+    margin-top: -50px;
+    margin-left: 220px;
+    border-radius: 9px;
+    background-image: linear-gradient(rgba(0,0,0,0.265), rgba(0,0,0,0.265)), url();
 }  
 
 .offer img {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 220px;
+    background-size: cover;
+    border-radius: 9px;
    
 }
 
@@ -92,22 +99,103 @@ h1 em {
 
 .home-image img {
     width: 400px;
+    border-radius: 6px;
+    height: 490px;
+    margin-top: 110px;
 }
 
 .home-image {
     position: relative;
-    animation: move 3s both;
+    animation: move 1.7s both;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
 }
 
 @keyframes move {
     from {right: 0px;}
     to {right: 100px;}
+    
    
 }
 
 
+/*   cont   */
 
 
+#head{
+    margin-left: 30px;
+    font-size: 51px;
+}
+
+
+.cofe-cont {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 39px;
+}
+
+.cofe-cup {
+    width: 189px;
+    height: 199px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 49px;
+    background-image: linear-gradient(rgba(0,0,0,0.265), rgba(0,0,0,0.265)), url(images/img-1.jpg);
+    background-size: cover;
+    color: white;
+    transition: transform 0.4s ease-in 0.5s;
+}
+
+.cofe-cup:hover {
+    transform: scale(1.1);
+}
+
+
+.cofe-cup img {
+    width: 149px;
+    height: 130px;
+    position: relative;
+    top: -40px;
+    border-radius: 50%;
+}
+
+.cofe-cup h2 {
+    margin-top: -15px;
+
+}
+
+
+.cofe-cup p {
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+
+/*  image text  */
+
+.image-text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 40px;
+    margin-top: 29px;
+}
+
+.image-text img {
+    width: 399px;
+    margin-right: 40px;
+    border-radius: 9px;
+}
+
+.image-text p {
+    font-size: x-large;
+    font-weight: 500;
+    margin-right: 30px;
+    text-align: justify;
+    color: blue;
+}
 
 /*  small  1000  */
 
@@ -157,7 +245,48 @@ h1 em {
         from {right: 0px;}
         to {right: 49px;}
     }
+
+    /*   cont  */
+
+    .cofe-cont {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 90px;
+    }
+
+    .cofe-cup {
+        width: 190px;
+        height: 190px;
+    }
+
+    .cofe-cup img {
+        width: 149px;
+        height: 129px;
+    }
+
+    .cofe-cup h2 {
+        margin-top: -14px;
+    }
+
+    /* image text */
+
+    .image-text {
+        padding: 39px 10px;
+        margin-top: 29px;
+    }
+
+    .image-text img {
+        width: 33%;
+    }
+
+    .image-text p {
+        padding: 10px 20px ;
+        font-size: 2.5vh;
+        font-weight: 449px;
+    }
 }
+
+
 
 
 /* tab  */
@@ -217,7 +346,43 @@ h1 em {
         to {right: 5%;}
     }
 
+
+    /*  cont   */
+
+
+   
+
+    .cofe-cont .cofe-cup {
+        width: 149px;
+        height: 169px;
+    }
+
+    .cofe-cup img {
+        width: 119px;
+        height: 99px;
+    }
+
+    .cofe-cup h2 {
+        font-size: medium;
+        margin-top: -19px;
+    }
     
+
+    /*  image text  */
+
+    .image-text {
+        padding: 40px 0px;
+        margin-top: 30px;
+    }
+
+    .image-text img {
+        width: 30%;
+    }
+    .image-text p {
+        font-size: 2vh;
+        font-weight: 400px;
+        padding: 0px 19px;
+    }
 }
 
 /*  phone  */
@@ -277,5 +442,54 @@ h1 em {
     @keyframes move {
         from {right: 0px;}
         to {right: 5%;}
+    }
+
+    /*  cont   */ 
+
+    .cofe-cont {
+        display: grid;
+        grid-template-columns: 1;
+        gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 69px;
+    }
+
+    .cofe-cup {
+        width: 255px;
+        height: 219px;
+    }
+
+    .cofe-cup img {
+        width: 180px;
+        height: 150px;
+    }
+
+    .cofe-cup h2 {
+        margin-top: -15px;
+
+    }
+
+    /*  image text  */
+
+    .image-text {
+        display: grid;
+        padding: 0;
+        margin: 0px;
+        margin-bottom: 60px;
+    }
+
+    .image-text img {
+        width: 140px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .image-text p {
+        font-size: 2.5vh;
+        font-weight: 300;
+        margin-right: 0;
+        text-align: justify;
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
