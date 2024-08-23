@@ -40,7 +40,7 @@ nav {
     background-color: #ffffff6b;
 }
 
-/*         home   */
+
 
 
 .home {
@@ -75,14 +75,34 @@ h1 em {
     border-radius: 7px;
 }
 
-.offer {
-    margin-top: -90px;
-    margin-left: -100px;
-}
+ .offer {
+    margin-top: -60px;
+    margin-left: -0px;
+}  
 
 .offer img {
     width: 400px;
-    
+    height: 400px;
+   
+}
+
+.home-image {
+    width: 400px;
+}
+
+.home-image img {
+    width: 400px;
+}
+
+.home-image {
+    position: relative;
+    animation: move 3s both;
+}
+
+@keyframes move {
+    from {right: 0px;}
+    to {right: 100px;}
+   
 }
 
 
@@ -104,6 +124,39 @@ h1 em {
     .anchor a{
         padding: 9px 9px;
     }
+
+    /*  home  */
+
+    .home-head{
+       padding: 150px 49px;
+    }
+
+    .home-head h1 {
+        font-size: 35px;
+    }
+    h1 em {
+        font-size: 50px;
+    }
+    .home-head button {
+        padding: 8px;
+        margin-top: 7px;
+    }
+
+    .offer {
+        margin-top: -69px;
+        margin-left: -69;
+    }
+    .offer img {
+       width: 299px;
+    }
+    .home-image img {
+        width: 299px;
+    }
+
+    @keyframes move {
+        from {right: 0px;}
+        to {right: 49px;}
+    }
 }
 
 
@@ -120,6 +173,51 @@ h1 em {
         font-size: 2.6vh;
         padding: 5px;
     }
+
+    /*  home   */
+
+    .home-head {
+        padding: 149px 21px;
+    }
+    .home-head h1 {
+        font-size: 25px;
+    }
+    h1 em {
+        font-size: 40px;
+    }
+
+    .home-head img {
+        width: 14px;
+        padding: 5px;
+    }
+
+    .home-head p {
+        font-size: small;
+    }
+
+    .home-head button {
+        padding: 5px;
+    }
+
+    .offer {
+        margin-top: -69px;
+        margin-left: -69;
+    }
+
+    .offer img {
+        width: 299px;
+    }
+
+    .home-head img {
+        width: 299px;
+    }
+
+    @keyframes move {
+        from {right: 0px;}
+        to {right: 5%;}
+    }
+
+    
 }
 
 /*  phone  */
@@ -138,5 +236,46 @@ h1 em {
 
     .anchor a {
         padding: 5px 5px;
+    }
+
+    /*  home */
+
+    .home-head {
+        padding: 59px 19px;
+    }
+    .home-head h1 {
+        font-size: 3vh;
+    }
+    h1 em {
+        font-size: 4vh;
+    }
+
+    .home-head img {
+        width: 10px;
+        padding: 2px;
+        margin: 8px 0px;
+        margin-bottom: 0px;
+    }
+
+    .home-head p {
+        font-size: 1.2vh;
+    }
+
+    .home-head button {
+        padding: 2px;
+        margin-left: 5px;
+        font-size: 1.3vh;
+    }
+
+    .offer {
+        margin-top: -39px;
+    }
+    .offer img {
+        width: 139px;
+    }
+
+    @keyframes move {
+        from {right: 0px;}
+        to {right: 5%;}
     }
 }
