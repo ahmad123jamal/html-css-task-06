@@ -207,7 +207,7 @@ h1 em {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 89px;
-    margin-top: 61px;
+    margin-top: 51px;
 
 }
 
@@ -228,7 +228,7 @@ h1 em {
 
 .cof-cup img {
     width: 100px;
-    height: 150px;
+    height: 145px;
     padding: 30px 0px;
 }
 .text-body {
@@ -697,6 +697,12 @@ h1 em {
     .bean-cont p {
         margin-top: -5px;
         font-size: 19px;
+    }
+
+
+    #head {
+        font-size: 15px;
+
     }
 
 }
