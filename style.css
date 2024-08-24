@@ -228,7 +228,7 @@ h1 em {
 
 .cof-cup img {
     width: 100px;
-    height: 145px;
+    height: 152px;
     padding: 30px 0px;
 }
 .text-body {
@@ -269,7 +269,36 @@ h1 em {
     margin-top: -50px;
 }
 
+footer {
+    display: flex;
+    margin-top: 100px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    background-color: blue;
+}
 
+footer ul {
+    margin-bottom: 20px;
+    
+}
+
+footer h4 {
+    margin-bottom: 26px;
+    color: white;
+}
+
+footer ul li {
+    list-style-type: none;
+    color: white;
+    padding-top: 5px;
+}
+
+footer a img {
+    padding: 9px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: white;
+}
 
 /*  small  1000  */
 
@@ -542,6 +571,20 @@ h1 em {
     color: white;
 }
 
+footer {
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+footer ul li {
+    font-size: small;
+}
+
+footer img {
+    width: 20px;
+    padding: 5px;
+}
+
 }
 
 /*  phone  */
@@ -703,6 +746,25 @@ h1 em {
     #head {
         font-size: 15px;
 
+    }
+
+    footer {
+        margin-top: 80px;
+        padding-top: 40px;
+    }
+
+    footer ul li {
+        font-size: 1.3vh;
+
+    }
+
+    footer h4 {
+        font-size: 1.4vh;
+    }
+
+    footer img {
+        width: 15px;
+        padding: 2px;
     }
 
 }
